@@ -15,7 +15,7 @@ export default function Categories() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
         {/* Pisos */}
         <div
-          className="group relative md:col-span-8 overflow-hidden aspect-[16/9] md:aspect-auto md:h-[450px] bg-white border border-outline-variant hover:border-primary transition-colors cursor-pointer"
+          className="group relative md:col-span-8 overflow-hidden aspect-video md:aspect-auto md:h-112.5 bg-white border border-outline-variant hover:border-primary transition-colors cursor-pointer"
           id="pisos"
         >
           <div
@@ -67,7 +67,7 @@ export default function Categories() {
 
         {/* Techos */}
         <div
-          className="group relative md:col-span-12 overflow-hidden aspect-[21/9] bg-white border border-outline-variant hover:border-primary transition-colors cursor-pointer"
+          className="group relative md:col-span-12 overflow-hidden aspect-21/11  md:aspect-21/9 bg-white border border-outline-variant hover:border-primary transition-colors cursor-pointer"
           id="techos"
         >
           <div
