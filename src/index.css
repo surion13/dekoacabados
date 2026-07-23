@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Colors */
+  --color-inverse-surface: #303031;
+  --color-on-error: #ffffff;
+  --color-on-primary-container: #554300;
+  --color-on-error-container: #93000a;
+  --color-surface-container-high: #e9e8e7;
+  --color-outline-variant: #d0c5af;
+  --color-on-surface: #1b1c1c;
+  --color-surface-container-low: #f5f3f3;
+  --color-on-secondary-container: #636262;
+  --color-on-secondary: #ffffff;
+  --color-on-surface-variant: #4d4635;
+  --color-tertiary-fixed: #e2e2e2;
+  --color-outline: #7f7663;
+  --color-inverse-primary: #e9c349;
+  --color-surface-container-lowest: #ffffff;
+  --color-primary-container: #d4af37;
+  --color-inverse-on-surface: #f2f0f0;
+  --color-secondary: #5f5e5e;
+  --color-on-tertiary: #ffffff;
+  --color-primary-fixed: #ffe088;
+  --color-on-primary-fixed-variant: #574500;
+  --color-on-primary-fixed: #241a00;
+  --color-surface-container: #efeded;
+  --color-tertiary: #5d5f5f;
+  --color-tertiary-fixed-dim: #c6c6c7;
+  --color-primary-fixed-dim: #e9c349;
+  --color-secondary-fixed-dim: #c8c6c5;
+  --color-on-secondary-fixed: #1c1b1b;
+  --color-background: #fbf9f9;
+  --color-error-container: #ffdad6;
+  --color-on-tertiary-fixed: #1a1c1c;
+  --color-on-tertiary-fixed-variant: #454747;
+  --color-surface: #fbf9f9;
+  --color-tertiary-container: #b2b3b3;
+  --color-surface-tint: #735c00;
+  --color-on-tertiary-container: #444546;
+  --color-on-primary: #ffffff;
+  --color-surface-bright: #fbf9f9;
+  --color-primary: #735c00;
+  --color-error: #ba1a1a;
+  --color-on-secondary-fixed-variant: #474746;
+  --color-on-background: #1b1c1c;
+  --color-surface-dim: #dbdad9;
+  --color-secondary-fixed: #e5e2e1;
+  --color-secondary-container: #e2dfde;
+  --color-surface-variant: #e3e2e2;
+  --color-surface-container-highest: #e3e2e2;
+
+  /* Border radius */
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+
+  /* Spacing */
+  --spacing-gutter: 24px;
+  --spacing-unit: 8px;
+  --spacing-margin-desktop: 80px;
+  --spacing-max-width: 1280px;
+  --spacing-margin-mobile: 20px;
+
+  /* Font families */
+  --font-body-lg: "Hanken Grotesk", sans-serif;
+  --font-body-md: "Hanken Grotesk", sans-serif;
+  --font-headline-md: "Montserrat", sans-serif;
+  --font-headline-xl: "Montserrat", sans-serif;
+  --font-headline-lg: "Montserrat", sans-serif;
+  --font-headline-lg-mobile: "Montserrat", sans-serif;
+  --font-label-caps: "Hanken Grotesk", sans-serif;
+
+  /* Font sizes (size / line-height) */
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--font-weight: 600;
+  --text-headline-xl: 48px;
+  --text-headline-xl--line-height: 56px;
+  --text-headline-xl--letter-spacing: -0.02em;
+  --text-headline-xl--font-weight: 700;
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 600;
+  --text-headline-lg-mobile: 28px;
+  --text-headline-lg-mobile--line-height: 36px;
+  --text-headline-lg-mobile--font-weight: 600;
+  --text-label-caps: 12px;
+  --text-label-caps--line-height: 16px;
+  --text-label-caps--letter-spacing: 0.1em;
+  --text-label-caps--font-weight: 700;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+
+.hero-gradient {
+  background: linear-gradient(rgba(251, 249, 249, 0.7), rgba(251, 249, 249, 0.95));
+}
+
+.glass-nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.product-card-hover {
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+}
+.product-card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 12px 24px rgba(0,0,0,0.05);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fbf9f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4af37;
+}

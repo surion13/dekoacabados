@@ -1,0 +1,37 @@
+export default function Hero() {
+  return (
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage:
+            "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDre0-F97zSJFpt_JzgEqNPasacCDEcOziD8pBsXYNCfSkk6TGzkTGfM3nWMX6890duD5LkkGWLSYlBtq8bDkII6ZlPIUHoUO5Ts9fXRF3JvPrX4Ur94zRO-yGpOVDGwu446Q0YKbEkOhUV0M_kdLFJKjMejQr1wdFi7__oW5ls6z1SULPPkpDKt1IyGW1anFvj1LAVEeIqje1sS_6Y7TNYrCGJl9UokZwh_4EQ60hvtUqmi15lFnqdsg')",
+        }}
+      />
+      <div className="absolute inset-0 z-10 hero-gradient" />
+      <div className="relative z-20 max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop w-full py-16">
+        <div className="max-w-2xl">
+          <span className="font-label-caps text-label-caps text-primary mb-4 block">
+            EXCELENCIA ARQUITECTÓNICA
+          </span>
+          <h1 className="font-headline-xl text-headline-xl mb-6 leading-tight">
+            Transforma tus espacios con acabados de{" "}
+            <span className="text-primary">alta gama</span>.
+          </h1>
+          <p className="font-body-lg text-body-lg text-secondary mb-10 max-w-lg">
+            Soluciones premium en PVC, paneles y revestimientos diseñados para
+            durar. Estética moderna para hogares y espacios comerciales.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button className="bg-primary-container text-on-primary-container px-10 py-4 font-headline-md text-base font-bold transition-all hover:brightness-110 shadow-lg">
+              Solicita tu cotización ahora
+            </button>
+            <button className="border border-secondary text-secondary px-10 py-4 font-headline-md text-base font-bold hover:bg-surface-container transition-colors">
+              Ver Catálogo
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
