@@ -8,7 +8,7 @@ const products = [
     description:
       "Cielo raso en pvc importado. Resistencia a la humedad. Presentación en láminas de 25 X 7mm y lámina de 30 cms X 9mm. Cotización de materiales de estructura por separado.",
     image:
-      "/public/cieloraso/blanco_humo.webp",
+      "/cieloraso/blanco_humo.webp",
   },
   {
     tag: "Laminado Premium",
@@ -17,7 +17,7 @@ const products = [
     description:
       "Resistencia superior a rayaduras con un acabado mate profundo que captura la esencia de la madera real.",
     image:
-      "/public/cieloraso/blanco_mate.webp",
+      "/cieloraso/blanco_mate.webp",
   },
   {
     tag: "PVC Arquitectónico",
@@ -26,7 +26,7 @@ const products = [
     description:
       "Instalación rápida sin adhesivos. Silencioso al caminar y altamente resistente a la humedad constante.",
     image:
-      "/public/cieloraso/humo_plata.webp",
+      "/cieloraso/humo_plata.webp",
   },
   {
     tag: "Efecto Piedra",
@@ -35,7 +35,7 @@ const products = [
     description:
       "Estética industrial refinada con la calidez y facilidad de mantenimiento de la tecnología SPC.",
     image:
-      "/public/cieloraso/marmol_dorado.webp",
+      "/cieloraso/marmol_dorado.webp",
   },
   {
     tag: "Resistente al Agua",
@@ -44,7 +44,7 @@ const products = [
     description:
       "Diseñado específicamente para áreas húmedas sin sacrificar la calidez visual de la madera noble.",
     image:
-      "/public/cieloraso/rombos_oro.webp",
+      "/cieloraso/rombos_oro.webp",
   },
 
 ];
