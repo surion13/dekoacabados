@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { getWhatsAppLink } from "../hooks/Whatsapp";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -17,7 +18,7 @@ export default function Navbar() {
       }`}
     >
       <nav className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-max-width mx-auto">
-        <div className="flex items-center gap-4">
+        <Link to="/" className="flex items-center gap-4">
           <img
             alt="Dekoacabados Logo"
             className="h-10 w-auto"
@@ -26,17 +27,17 @@ export default function Navbar() {
           <span className="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim hidden sm:block">
             Dekoacabados Market
           </span>
-        </div>
+        </Link>
         <div className="hidden md:flex items-center gap-10">
           <Link
             className="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors duration-300"
-            to="/catalogo-cielo"
+            to="/catalogo-pisos"
           >
             Pisos
           </Link>
           <Link
             className="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors duration-300"
-            to="/catalogo-cielo"
+            to="/catalogo-paredes"
           >
             Paredes
           </Link>
@@ -47,9 +48,14 @@ export default function Navbar() {
             Techos
           </Link>
         </div>
-        <button className="bg-primary-container text-on-primary-container px-6 py-2.5 rounded shadow-sm font-headline-md text-sm font-bold scale-95 active:scale-90 transition-transform">
+        <a
+          href={getWhatsAppLink("Hola, quisiera contactarlos.")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-primary-container text-on-primary-container px-6 py-2.5 rounded shadow-sm font-headline-md text-sm font-bold scale-95 active:scale-90 transition-transform inline-block text-center"
+        >
           Contactar
-        </button>
+        </a>
       </nav>
     </header>
   );

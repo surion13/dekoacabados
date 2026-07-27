@@ -1,3 +1,5 @@
+import { getWhatsAppLink } from "../hooks/Whatsapp";
+
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
@@ -23,12 +25,17 @@ export default function Hero() {
             durar. Estética moderna para hogares y espacios comerciales.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="bg-primary-container text-on-primary-container px-10 py-4 font-headline-md text-base font-bold transition-all hover:brightness-110 shadow-lg">
+            <a
+              href={getWhatsAppLink("Hola, quisiera solicitar una cotización.")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary-container text-on-primary-container px-10 py-4 font-headline-md text-base font-bold transition-all hover:brightness-110 shadow-lg text-center"
+            >
               Solicita tu cotización ahora
-            </button>
-            <button className="border border-secondary text-secondary px-10 py-4 font-headline-md text-base font-bold hover:bg-surface-container transition-colors">
+            </a>
+            <a href="#categories" className="border border-secondary text-secondary px-10 py-4 font-headline-md text-base font-bold hover:bg-surface-container transition-colors">
               Ver Catálogo
-            </button>
+            </a>
           </div>
         </div>
       </div>

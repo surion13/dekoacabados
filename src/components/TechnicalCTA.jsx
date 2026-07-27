@@ -1,3 +1,6 @@
+import { getWhatsAppLink } from "../hooks/Whatsapp";
+
+
 export default function TechnicalCTA() {
   return (
     <section className="bg-inverse-surface py-20 px-margin-mobile md:px-margin-desktop">
@@ -12,9 +15,14 @@ export default function TechnicalCTA() {
           </p>
         </div>
         <div className="flex gap-4">
-          <button className="bg-primary-container text-on-primary-container px-10 py-4 font-headline-md text-[16px] font-bold uppercase tracking-widest hover:brightness-110 transition-all">
+          <a
+            href={getWhatsAppLink("Hola, necesito asesoría técnica para elegir un material.")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-primary-container text-on-primary-container px-10 py-4 font-headline-md text-[16px] font-bold uppercase tracking-widest hover:brightness-110 transition-all"
+          >
             Solicitar Cotización
-          </button>
+          </a>
         </div>
       </div>
     </section>

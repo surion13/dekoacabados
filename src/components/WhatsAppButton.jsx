@@ -1,7 +1,9 @@
+import { getWhatsAppLink } from "../hooks/Whatsapp";
+
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/your-number-here"
+      href={getWhatsAppLink("Hola, me gustaría más información sobre sus productos.")}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-8 right-8 z-50 flex items-center justify-center w-12 h-12 bg-[#25D366] text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 active:scale-90"

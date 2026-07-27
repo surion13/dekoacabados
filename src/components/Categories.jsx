@@ -32,10 +32,10 @@ export default function Categories() {
               Durabilidad excepcional con texturas naturales que elevan
               cualquier ambiente.
             </p>
-            <div className="mt-4 flex items-center text-primary-container font-bold gap-2">
+            <Link to="/catalogo-pisos" className="mt-4 flex items-center text-primary-container font-bold gap-2">
               Explorar Pisos{" "}
               <span className="material-symbols-outlined">trending_flat</span>
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -58,10 +58,10 @@ export default function Categories() {
               Paneles 3D y revestimientos que transforman muros en piezas de
               arte arquitectónico.
             </p>
-            <div className="mt-4 flex items-center text-primary-container font-bold gap-2">
+            <Link to="/catalogo-paredes" className="mt-4 flex items-center text-primary-container font-bold gap-2">
               Explorar Paredes{" "}
               <span className="material-symbols-outlined">trending_flat</span>
-            </div>
+            </Link>
           </div>
         </div>
 

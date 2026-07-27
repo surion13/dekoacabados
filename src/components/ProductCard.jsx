@@ -1,4 +1,8 @@
-export default function ProductCard({ price, title, description, image }) {
+import { getWhatsAppLink } from "../hooks/Whatsapp";
+
+export default function ProductCard({ price, title, image }) {
+  const whatsappMessage = `Hola, quisiera cotizar el producto: ${title}.`;
+
   return (
     <div className="product-card-hover bg-surface border border-outline-variant rounded-lg overflow-hidden flex flex-col h-full">
       <div className="aspect-4/3 overflow-hidden bg-surface-container-low">
@@ -9,14 +13,17 @@ export default function ProductCard({ price, title, description, image }) {
     
           <span className="text-primary font-bold text-lg">{price}</span>
         </div>
-        <h3 className="font-headline-md text-headline-md mb-2">{title}</h3>
-        <p className="font-body-md text-secondary mb-8 line-clamp-2">
-          {description}
-        </p>
+        <h3 className="font-headline-md text-headline-md mb-8">{title}</h3>
+
         <div className="mt-auto flex gap-4">
-          <button className="flex-1 py-3 px-4 border border-on-surface text-on-surface font-bold text-sm uppercase tracking-widest hover:bg-on-surface hover:text-white transition-colors">
+          <a
+            href={getWhatsAppLink(whatsappMessage)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 py-3 px-4 border border-on-surface text-on-surface font-bold text-sm uppercase tracking-widest hover:bg-on-surface hover:text-white transition-colors text-center"
+          >
             Cotizar
-          </button>
+          </a>
         </div>
       </div>
     </div>

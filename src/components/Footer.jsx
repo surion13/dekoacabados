@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="bg-inverse-surface dark:bg-surface-container-lowest border-t border-outline-variant">
@@ -37,24 +39,24 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-8">
           <div className="flex flex-col gap-4">
             <h4 className="text-white font-bold mb-2">Productos</h4>
-            <a
+            <Link
               className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
-              href="#pisos"
+              to="/catalogo-pisos"
             >
               Pisos
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
-              href="#paredes"
+              to="/catalogo-paredes"
             >
               Paredes
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
-              href="#techos"
+              to="/catalogo-cielo"
             >
               Techos
-            </a>
+            </Link>
           </div>
           <div className="flex flex-col gap-4">
             <h4 className="text-white font-bold mb-2">Compañía</h4>
@@ -87,18 +89,20 @@ export default function Footer() {
               location_on
             </span>
             <p>
-              Encuéntranos en nuestro showroom principal para conocer las
+              Encuéntranos en nuestro local principal para conocer las
               texturas en vivo.
             </p>
           </div>
           <div className="mt-4 rounded overflow-hidden h-32 grayscale hover:grayscale-0 transition-all duration-500">
-            <div
-              className="bg-cover bg-center w-full h-full"
-              data-location="Bogotá, Colombia"
-              style={{
-                backgroundImage:
-                  "url('https://lh3.googleusercontent.com/aida-public/AB6AXuD9uFcg4ltOdSlE78zkePGK9n0FDmsdw1qOGdwc9hWETaQdBoBmr2TQzXb35Vf_-SpPxamuNP2br9KSpHe6YwhjvxcOpzEvmyVN5-mtt1IE4SjgkVQkZoOf9r5I9I4hsezhvhQYKaG4DDslyEXgEgB_lRhMHhrTr4RUZkgqUD33YkAWBkYNGi1euaAltO2r6bBSJDSrY4sUqFPDa9hFvtueB6BMJatpEtnX5k5gUkRuZnwL7prvAuj-bw')",
-              }}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.453056663453!2d-74.0610468259624!3d4.8634926402267675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f87b897aa6fcb%3A0xbb2d06eff7b26fe0!2sdekoacabados%20market!5e0!3m2!1ses!2sco!4v1784906614971!5m2!1ses!2sco"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+              title="Ubicación Dekoacabados Market"
             />
           </div>
         </div>

@@ -1,4 +1,4 @@
-export default function CatalogHero() {
+export default function CatalogHeroParedes() {
   return (
     <section className="px-margin-mobile md:px-margin-desktop py-16 md:py-24 max-w-max-width mx-auto">
       <div className="max-w-2xl">
@@ -6,10 +6,10 @@ export default function CatalogHero() {
           Colección Exclusiva
         </span>
         <h1 className="font-headline-xl text-headline-xl text-on-surface mb-6">
-          Catálogo de Cielo Raso en PVC
+          Catálogo de Paredes, Paneles WPC
         </h1>
         <p className="font-body-lg text-body-lg text-secondary leading-relaxed">
-Cielo raso en pvc importado. Resistencia a la humedad. Presentación en láminas de 25 X 7mm y lámina de 30 cms X 9mm. Cotización de materiales de estructura por separado.
+          Los paneles WPC (Wood Plastic Composite o Composite de Madera y Plástico) son un revestimiento moderno y de alta durabilidad que combina fibras de madera natural con polímeros reciclados. Se han convertido en la opción preferida para la arquitectura contemporánea gracias a su estética cálida, facilidad de instalación y resistencia ante las condiciones climáticas.
         </p>
       </div>
     </section>
