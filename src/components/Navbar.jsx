@@ -49,7 +49,7 @@ export default function Navbar() {
           </Link>
         </div>
         <a
-          href={getWhatsAppLink("Hola, quisiera contactarlos.")}
+          href={getWhatsAppLink("Hola, quisiera mas informacion de sus productos")}
           target="_blank"
           rel="noopener noreferrer"
           className="bg-primary-container text-on-primary-container px-6 py-2.5 rounded shadow-sm font-headline-md text-sm font-bold scale-95 active:scale-90 transition-transform inline-block text-center"
