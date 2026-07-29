@@ -18,7 +18,7 @@ export default function Footer() {
               className="text-primary-container hover:text-white transition-colors"
               href="#"
             >
-              <span className="material-symbols-outlined">public</span>
+              <span className="material-symbols-outlined">mail</span>
             </a>
             <a
               className="text-primary-container hover:text-white transition-colors"
@@ -89,8 +89,8 @@ export default function Footer() {
               location_on
             </span>
             <p>
-              Encuéntranos en nuestro local principal para conocer las
-              texturas en vivo.
+              Encuéntranos en nuestro local principal para conocer nuestros
+              productos en vivo.
             </p>
           </div>
           <div className="mt-4 rounded overflow-hidden h-32 grayscale hover:grayscale-0 transition-all duration-500">

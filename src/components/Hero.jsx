@@ -17,12 +17,11 @@ export default function Hero() {
             EXCELENCIA ARQUITECTÓNICA
           </span>
           <h1 className="font-headline-xl text-headline-xl mb-6 leading-tight">
-            Transforma tus espacios con acabados de{" "}
-            <span className="text-primary">alta gama</span>.
+            Dekoacabados{" "}
+            <span className="text-primary">Market</span>.
           </h1>
           <p className="font-body-lg text-body-lg text-secondary mb-10 max-w-lg">
-            Soluciones premium en PVC, paneles y revestimientos diseñados para
-            durar. Estética moderna para hogares y espacios comerciales.
+           Somos la mejor alternativa para renovar sus espacios.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

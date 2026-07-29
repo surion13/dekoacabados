@@ -17,16 +17,16 @@ export default function Navbar() {
         scrolled ? "shadow-lg" : ""
       }`}
     >
-      <nav className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-max-width mx-auto">
+      <nav className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-2 max-w-max-width mx-auto">
         <Link to="/" className="flex items-center gap-4">
           <img
             alt="Dekoacabados Logo"
-            className="h-10 w-auto"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuApGTqIVRaEHdjkoLkP8GvGFWs-FDIMZjrOFqh9QWrqPlcXrDQegrtrrAKzcNB2Uaevp_4KPhc4gHG3RZBti9cHxBohPRXPDgPBdRTQroQcgWkeZTa-CI6VxekZkzCVby8siF_6gSQGXoUSIDwkTkd55b68sCYmnKUxDvy_CdSSm94hiHKkJvbjn5Zw3r5yxBUvuJNLyFnrqDx4sY1vYfv0FOH6_BgFz3M6tNpG7NECd-31WzatmaiCjM4wNftWSehLL7g"
+            className="h-16 w-auto"
+            src="/logo_letras.webp"
           />
-          <span className="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim hidden sm:block">
+          {/* <span className="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim hidden sm:block">
             Dekoacabados Market
-          </span>
+          </span> */}
         </Link>
         <div className="hidden md:flex items-center gap-10">
           <Link
@@ -45,7 +45,7 @@ export default function Navbar() {
             className="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors duration-300"
             to="/catalogo-cielo"
           >
-            Techos
+            Cielo Raso
           </Link>
         </div>
         <a

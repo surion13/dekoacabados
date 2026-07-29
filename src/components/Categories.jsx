@@ -79,7 +79,7 @@ export default function Categories() {
           />
           <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-8">
-            <h3 className="font-headline-lg text-white mb-2">Techos</h3>
+            <h3 className="font-headline-lg text-white mb-2">Cielo Raso</h3>
             <p className="text-white/90 max-w-lg mb-6">
               Sistemas de cielorrasos técnicos y decorativos de rápida
               instalación.
