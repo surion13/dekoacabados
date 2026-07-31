@@ -60,23 +60,22 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-4">
             <h4 className="text-white font-bold mb-2">Compañía</h4>
+            <p
+              className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
+            >
+             312 5152823
+            </p>
+            <p
+              className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
+              href="#"
+            >
+              Instagram
+            </p>
             <a
               className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
               href="#"
             >
-              Garantía
-            </a>
-            <a
-              className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
-              href="#"
-            >
-              Certificados
-            </a>
-            <a
-              className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
-              href="#"
-            >
-              Contacto
+              Facebook
             </a>
           </div>
         </div>

@@ -1,116 +1,20 @@
 import ProductCard from "./ProductCard";
 
 const products = [
-  {
-    price: "$58.900",
-    title: "Arena 2.00 M2",
-    image: "/pisos/arena_2.00_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Castaño 2 M2",
-    image: "/pisos/castaño_2_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Castaño 2.1 M2",
-    image: "/pisos/castaño_2.1_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Gris Blanco 2.00 M2",
-    image: "/pisos/gris_blanco_2.00_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Gris Chrome 2 M2",
-    image: "/pisos/gris_chrome_2_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Gris Chrome 2.1 M2",
-    image: "/pisos/gris_chrome_2.1_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Gris Claro 2 M2",
-    image: "/pisos/gris_claro_2_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Gris Claro 2.1 M2",
-    image: "/pisos/gris_claro_2.1_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Gris Oscuro 2 M2",
-    image: "/pisos/gris_oscuro_2_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Gris Oscuro 2.1 M2",
-    image: "/pisos/gris_oscuro_2.1_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Moka 2 M2",
-    image: "/pisos/moka_2_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Nebraska 2.00 M2",
-    image: "/pisos/nebraska_2.00_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Nevado 2 M2",
-    image: "/pisos/nevado_2_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Nevado 2.1 M2",
-    image: "/pisos/nevado_2.1_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Nogal 2.11 M2",
-    image: "/pisos/nogal_2.11_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Pino 2.11 M2",
-    image: "/pisos/pino_2.11_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Roble Gris 2 M2",
-    image: "/pisos/roble_gris_2_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Tundra 2 M2",
-    image: "/pisos/tundra_2_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Tundra 2.1 M2",
-    image: "/pisos/tundra_2.1_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Volcano 2 M2",
-    image: "/pisos/volcano_2_m2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Volcano 2.1 M2",
-    image: "/pisos/volcano_2.1_M2.webp",
-  },
-  {
-    price: "$58.900",
-    title: "Volcano 014 2.00 M2",
-    image: "/pisos/volcano_014_2.00_m2.webp",
-  },
+  { tag: "SPC", price: "$58.900", title: "Arena", image: "/pisos/arena.webp" },
+  { tag: "SPC", price: "$58.900", title: "Cafe", image: "/pisos/cafe.webp" },
+  { tag: "SPC", price: "$58.900", title: "Gris Blanco", image: "/pisos/gris_blanco.webp" },
+  { tag: "SPC", price: "$58.900", title: "Gris Oscuro", image: "/pisos/gris_oscuro.webp" },
+  { tag: "SPC", price: "$58.900", title: "Negro", image: "/pisos/negro.webp" },
+  { tag: "SPC", price: "$58.900", title: "Nogal", image: "/pisos/nogal.webp" },
+  { tag: "SPC", price: "$58.900", title: "Pino", image: "/pisos/pino.webp" },
+  { tag: "SPC", price: "$58.900", title: "Roble Gris", image: "/pisos/roble_gris.webp" },
+  { tag: "Laminado", price: "$43.900", title: "Roble Mouse", image: "/pisos/roble_mouse.webp" },
+  { tag: "Laminado", price: "$43.900", title: "Gris Textura", image: "/pisos/gris_textura.webp" },
+  { tag: "Laminado", price: "$43.900", title: "Gris Hielo", image: "/pisos/gris_hielo.webp" },
+  { tag: "Laminado", price: "$43.900", title: "Elegance Beach", image: "/pisos/elegance_beach.webp" },
+  { tag: "Laminado", price: "$43.900", title: "Cedro Brillo", image: "/pisos/cedro_brillo.webp" },
+  { tag: "Laminado", price: "$43.900", title: "Guayacan Brillo", image: "/pisos/guayacan_brillo.webp" },
 ];
 
 export default function ProductGridPisos() {

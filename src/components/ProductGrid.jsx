@@ -2,30 +2,49 @@ import ProductCard from "./ProductCard";
 
 const products = [
   {
+    tag: "PVC",
+    price: "$23.500",
+    title: "Marmol Gris",
+    image:
+      "/cieloraso/marmol_gris.webp",
+  },
+  {
+    tag: "PVC",
+    price: "$23.500",
+    title: "Roble Claro",
+    image:
+      "/cieloraso/roble_claro.webp",
+  },
+  {
+    tag: "PVC",
     price: "$23.500",
     title: "Blanco Humo",
     image:
       "/cieloraso/blanco_humo.webp",
   },
   {
+    tag: "PVC",
     price: "$23.500",
     title: "Blanco Mate",
     image:
       "/cieloraso/blanco_mate.webp",
   },
   {
+    tag: "PVC",
     price: "$23.500",
     title: "Humo Plata",
     image:
       "/cieloraso/humo_plata.webp",
   },
   {
+    tag: "PVC",
     price: "$23.500",
     title: "Marmol Dorado",
     image:
       "/cieloraso/marmol_dorado.webp",
   },
   {
+    tag: "PVC",
     price: "$23.500",
     title: "Rombos Oro",
     image:

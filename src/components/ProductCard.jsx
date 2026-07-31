@@ -1,6 +1,6 @@
 import { getWhatsAppLink } from "../hooks/Whatsapp";
 
-export default function ProductCard({ price, title, image }) {
+export default function ProductCard({ tag, price, title, description, image }) {
   const whatsappMessage = `Hola, quisiera cotizar el producto: ${title}.`;
 
   return (
@@ -9,11 +9,20 @@ export default function ProductCard({ price, title, image }) {
         <img className="w-full h-full object-cover" src={image} alt={title} />
       </div>
       <div className="p-8 flex flex-col grow">
-        <div className="flex justify-between items-start mb-4">
-    
-          <span className="text-primary font-bold text-lg">{price}</span>
+        <div className="flex justify-between items-start mb-4 font-bold ">
+          {tag && (
+            <span className="font-label-caps text-[12px] bg-secondary-fixed text-on-secondary-fixed px-2 py-1 rounded-sm uppercase">
+              {tag}
+            </span>
+          )}
+          <span className="text-primary font-bold text-lg ml-auto">{price}</span>
         </div>
-        <h3 className="font-headline-md text-headline-md mb-8">{title}</h3>
+        <h3 className="font-headline-md text-headline-md mb-2">{title}</h3>
+        {description && (
+          <p className="font-body-md text-secondary mb-8 line-clamp-2">
+            {description}
+          </p>
+        )}
 
         <div className="mt-auto flex gap-4">
           <a
