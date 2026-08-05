@@ -32,7 +32,7 @@ export default function Hero() {
             >
               Solicita tu cotización ahora
             </a>
-            <a href="#categories" className="border border-secondary text-secondary px-10 py-4 font-headline-md text-base font-bold hover:bg-surface-container transition-colors">
+            <a href="#categories" className="border border-secondary text-secondary px-10 py-4 font-headline-md text-base font-bold hover:bg-surface-container transition-colors text-center">
               Ver Catálogo
             </a>
           </div>

@@ -40,7 +40,7 @@ const products = [
   {
     tag: "Marmol PVC",
     price: "$130.000",
-    title: "Veige",
+    title: "Beige",
     image: "/paredes/marmolizada_veige.webp",
   },
   {
