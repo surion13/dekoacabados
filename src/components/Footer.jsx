@@ -99,7 +99,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/10 py-8 px-margin-mobile md:px-margin-desktop max-w-max-width mx-auto">
         <p className="text-surface-variant dark:text-secondary text-sm text-center">
-          © 2024 Dekoacabados Market. Transformando espacios con precisión
+          © 2026 Dekoacabados Market. Transformando espacios con precisión
           arquitectónica.
         </p>
       </div>
