@@ -16,22 +16,13 @@ export default function Footer() {
           <div className="flex gap-4">
             <a
               className="text-primary-container hover:text-white transition-colors"
-              href="#"
             >
               <span className="material-symbols-outlined">mail</span>
             </a>
-            <a
+            <p
               className="text-primary-container hover:text-white transition-colors"
-              href="#"
-            >
-              <span className="material-symbols-outlined">thumb_up</span>
-            </a>
-            <a
-              className="text-primary-container hover:text-white transition-colors"
-              href="#"
-            >
-              <span className="material-symbols-outlined">photo_camera</span>
-            </a>
+            >decoacabadosmarket@gmail.com
+            </p>
           </div>
         </div>
 
@@ -65,15 +56,15 @@ export default function Footer() {
             >
              312 5152823
             </p>
-            <p
+            {/* <p
               className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
               href="#"
             >
               Instagram
-            </p>
+            </p> */}
             <a
               className="text-surface-variant dark:text-secondary hover:text-primary-fixed transition-colors opacity-80 hover:opacity-100"
-              href="#"
+              href="https://www.facebook.com/p/Dekoacabados-Market-100075694907982/"
             >
               Facebook
             </a>
